@@ -9,13 +9,13 @@ title: WebdriverIO - Boilerplate Projects
 
 Over the time our community has developed a bunch of boilerplate projects that can be used as inspiration to set up the own test suite.
 
-## [amiya-pattnaik/ngtaf4js-boilerplate-cucumber](https://github.com/amiya-pattnaik/ngtaf4js-boilerplate-cucumber)
+## [amiya-pattnaik/webdriverIO-with-cucumberBDD](https://github.com/amiya-pattnaik/webdriverIO-with-cucumberBDD)
 
-ngtaf4js-cucumber...This repository contains a collection of sample webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using Cucumber BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks. It generate Spec, JUNIT (html view on local machine through junit-viewer), Allure, JSON reporters as well.
+This repository contains boilerplate code for webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using the Cucumber (v 3.0.0) BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks, provides utilities to read data from MS-Excel, executes SQL statements to any database for end to end testing. It generate Spec, JUNIT, Allure, JSON reporters as well.
 
-## [amiya-pattnaik/ngtaf4js-boilerplate-jasmine](https://github.com/amiya-pattnaik/ngtaf4js-boilerplate-jasmine)
+## [amiya-pattnaik/webdriverIO-with-jasmineBDD](https://github.com/amiya-pattnaik/webdriverIO-with-jasmineBDD)
 
-ngtaf4js-jasmine…This repository contains a collection of sample webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using Jasmine BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks. It generate Spec, JUNIT (html view on local machine through junit-viewer), Allure, JSON reporters as well.
+This repository contains boilerplate code for webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using the Jasmine BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks, provides utilities to read data from MS-Excel, executes SQL statements to any database for end to end testing. It generate Spec, JUNIT, Allure, JSON reporters as well.
 
 ## [webdriverio/cucumber-boilerplate](https://github.com/webdriverio/cucumber-boilerplate)
 
