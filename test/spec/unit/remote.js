@@ -44,6 +44,16 @@ describe('remote method', () => {
         client.requestHandler.createOptions({ path: startPath }, {}).qs.should.include({testKey: 'testValue'})
     })
 
+    it('should add authorization header if specified', () => {
+        var client = remote({headers: {Authorization: 'testValue'}})
+        client.requestHandler.createOptions({ path: startPath }, {}).headers.should.include({'Authorization': 'testValue'})
+    })
+
+    it('should not add authorization header if not a string', () => {
+        var client = remote({headers: {Authorization: ['testValue']}})
+        Object.keys(client.requestHandler.createOptions({ path: startPath }, {}).headers).should.not.include('Authorization')
+    })
+
     describe('on reject', () => {
         const sandbox = sinon.sandbox.create()
 

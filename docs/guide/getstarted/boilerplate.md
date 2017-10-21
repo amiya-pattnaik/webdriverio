@@ -9,6 +9,14 @@ title: WebdriverIO - Boilerplate Projects
 
 Over the time our community has developed a bunch of boilerplate projects that can be used as inspiration to set up the own test suite.
 
+## [amiya-pattnaik/webdriverIO-with-cucumberBDD](https://github.com/amiya-pattnaik/webdriverIO-with-cucumberBDD)
+
+This repository contains boilerplate code for webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using the Cucumber (v 3.0.0) BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks, provides utilities to read data from MS-Excel, executes SQL statements to any database for end to end testing. It generate Spec, JUNIT, Allure, JSON reporters as well.
+
+## [amiya-pattnaik/webdriverIO-with-jasmineBDD](https://github.com/amiya-pattnaik/webdriverIO-with-jasmineBDD)
+
+This repository contains boilerplate code for webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using the Jasmine BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks, provides utilities to read data from MS-Excel, executes SQL statements to any database for end to end testing. It generate Spec, JUNIT, Allure, JSON reporters as well.
+
 ## [webdriverio/cucumber-boilerplate](https://github.com/webdriverio/cucumber-boilerplate)
 
 Our very own boilerplate for Cucumber test suites. We created over 150 predefined step definitions for you so that you can start write feature files for your project right away.
@@ -76,3 +84,18 @@ This directory contains the WebdriverIO page object example written using TypeSc
     - examples of Page Object Model implemenetation
     - Intellisence
 
+## [klamping/wdio-starter-kit](https://github.com/klamping/wdio-starter-kit)
+
+Boilerplate repo for quick set up of WebdriverIO test scripts with TravisCI, Sauce Labs and Visual Regression Testing
+
+- Framework: Mocha, Chai
+- Features:
+    - Login & Registration Tests, with Page Objects
+    - Mocha
+    - Chai with expect global
+    - Chai WebdriverIO
+    - Sauce Labs integration
+    - Visual Regression Tests
+    - Local notifications
+    - ESLint using Semistandard style
+    - WebdriverIO tuned Gitignore file
