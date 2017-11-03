@@ -9,13 +9,35 @@ title: WebdriverIO - Boilerplate Projects
 
 Over the time our community has developed a bunch of boilerplate projects that can be used as inspiration to set up the own test suite.
 
-## [amiya-pattnaik/ngtaf4js-boilerplate-cucumber](https://github.com/amiya-pattnaik/ngtaf4js-boilerplate-cucumber)
+## [amiya-pattnaik/webdriverIO-with-cucumberBDD](https://github.com/amiya-pattnaik/webdriverIO-with-cucumberBDD)
 
-ngtaf4js-cucumber...This repository contains a collection of sample webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using Cucumber BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks. It generate Spec, JUNIT (html view on local machine through junit-viewer), Allure, JSON reporters as well.
+This repository contains a collection of sample webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using the Cucumber (v 3.0.0) BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks.
 
-## [amiya-pattnaik/ngtaf4js-boilerplate-jasmine](https://github.com/amiya-pattnaik/ngtaf4js-boilerplate-jasmine)
+- Framework: Cucumber (v 3.0.0)
+- Features:
+    - Page Objects Model uses with ES6 style class base approach
+    - Integration with BrowserStack
+    - ES6 support through Babel
+    - Support of read/write data from MS-Excel (external data sources) for easy test data management with examples
+    - Support of connecting to any RDBMS (Oracle, MySql, TeraData, Vertica etc.) / executing any queries / fetching result set etc. with examples. It will help in verifying actual data Vs Expected data from database. Complete E2E testing
+    - Headless execution with PhantomJS and Chrome
+    - Multiple reporting (Spec, Junit, Allure, JSON) also local view of junit report in .html format
+    - Uses of Grunt to manage tasks
 
-ngtaf4js-jasmine…This repository contains a collection of sample webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using Jasmine BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks. It generate Spec, JUNIT (html view on local machine through junit-viewer), Allure, JSON reporters as well.
+## [amiya-pattnaik/webdriverIO-with-jasmineBDD](https://github.com/amiya-pattnaik/webdriverIO-with-jasmineBDD)
+
+This repository contains a collection of sample webdriverIO (Selenium - Node.js/JavaScript) projects and libraries that demonstrate how to use the tool and develop automation script using the Jasmine BDD framework. It support ES6 (via babel-register) and uses Grunt to manage tasks.
+
+- Framework: Jasmine
+- Features:
+    - Page Objects Model uses with ES6 style class base approach
+    - Integration with BrowserStack
+    - ES6 support through Babel
+    - Support of read/write data from MS-Excel (external data sources) for easy test data management with examples
+    - Support of connecting to any RDBMS (Oracle, MySql, TeraData, Vertica etc.) / executing any queries / fetching result set etc. with examples. It will help in verifying actual data Vs Expected data from database. Complete E2E testing
+    - Headless execution with PhantomJS and Chrome
+    - Multiple reporting (Spec, Junit, Allure, JSON) also local view of junit report in .html format
+    - Uses of Grunt to manage tasks
 
 ## [webdriverio/cucumber-boilerplate](https://github.com/webdriverio/cucumber-boilerplate)
 
